@@ -62,15 +62,21 @@
 
   .nav-link {
     text-decoration: none;
-    color: #f39c12;
+    color: #3b82f6;
     font-size: 1.2rem;
     font-weight: bold;
     margin: 0 15px;
-    transition: color 0.3s;
+    transition: 0.2s ease;
+    background: #0b0d0f;
+    border: 1.5px solid #3b82f6;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-family: 'Poppins', sans-serif;
   }
   
   .nav-link:hover {
-    color: #d35400;
+    background: #3b82f6;
+    color: #ffffff;
   }
   
   .animated-heading {
@@ -173,16 +179,20 @@
     position: absolute;
     top: 20px;
     left: 20px;
-    background: none;
-    border: none;
+    background: #0b0d0f;
+    border: 1.5px solid #3b82f6;
+    border-radius: 8px;
     cursor: pointer;
-    color: white;
+    color: #3b82f6;
     font-size: 16px;
-    transition: transform 0.3s ease;
+    padding: 8px 12px;
+    transition: 0.2s ease;
   }
   
   .back-button:hover {
-    transform: scale(1.2);
+    background: #3b82f6;
+    color: #ffffff;
+    transform: scale(1.05);
   }
 
   
